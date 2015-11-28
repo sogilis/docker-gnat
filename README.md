@@ -9,6 +9,7 @@ Goal: access a variety of GNAT versions (like Pro or community) through Docker c
 You should have downloaded a `AdaCore-Download-*.tar` file from AdaCore. Untar under `gnatpro/src` so you have something like `./gnatpro/src/gnat/gnatpro-7.4.0-x86_64-linux-bin.tar.gz`
 
 Build the container:
+
     cd gnatpro
     docker build -t gnatpro:7.4.0 .
 
